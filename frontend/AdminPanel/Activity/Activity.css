@@ -1,0 +1,108 @@
+.activity-section {
+  margin-left: 200px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.activity-section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.activity-section table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.activity-section th,
+.activity-section td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.activity-section th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+  color: #444;
+}
+
+.activity-section tr:hover {
+  background-color: #f7f7f7;
+}
+
+.activity-section td {
+  color: #555;
+}
+
+/* Pagination styles */
+.pagination-btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-btn button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-btn button:hover {
+  background-color: #d5d5d5;
+}
+
+.pagination-btn button.active {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination-btn button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .activity-section {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .activity-section table {
+    font-size: 14px;
+  }
+
+  .activity-section th,
+  .activity-section td {
+    padding: 10px;
+  }
+
+  .activity-section h2 {
+    font-size: 22px;
+  }
+
+  .pagination-btn {
+    gap: 6px;
+  }
+
+  .pagination-btn button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}

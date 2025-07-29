@@ -1,0 +1,63 @@
+.blog-detail{
+    background-image: url( 'https://idecorwala.com/cdn/shop/products/4308-3_1024x1024.jpg?v=1666262423' );
+    height: auto;
+    margin-bottom: 40px;
+}
+.blog-detail-header{
+    margin: 0px 60px;
+    padding: 100px 20px;
+}
+.blog-detail-image{
+    margin: 0px 20px;
+}
+.blog-detail-image img{
+    width: 880px;
+    height: 380px;
+}
+.blog-detail-date-name{
+    display: flex;
+     margin: 0px 20px;
+     gap: 50px;
+     padding: 20px 0px 0px 0px;
+}
+.blog-detail-date-name span{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+.blog-detail-date-name .blog-detail-date{
+    color: #465162;
+    font-weight: 600;
+}
+.blog-detail-header hr{
+    margin: 0px 20px;
+    background-color: #fed875;
+    outline: none;
+    border: none;
+    width: 100px;
+    border-radius: 40px;
+    height: 4px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 80px;
+}
+.blog-detail-title{
+    margin: 0px 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+.blog-detail-content{
+    margin: 0px 20px;
+    color: #545353;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.blog-detail-content p{
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

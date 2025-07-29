@@ -1,0 +1,19 @@
+.approved-blogs-for-homepage-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.home .home-heading-line{
+    background-color: #f1b829;
+    padding: 2px;
+    height: 2px;
+    border: none;
+    border-radius: 20px;
+    width: 320px;
+    margin-left: 280px;
+    margin-top: 4px;
+}

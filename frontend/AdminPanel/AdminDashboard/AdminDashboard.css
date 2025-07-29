@@ -1,0 +1,115 @@
+/* AdminDashboard.css */
+
+.adminDashboard {
+  margin-left: 180px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.adminDashboard-search-bar{
+    display: flex;
+  align-items: center;
+  background-color: #dcdada;
+  border-radius: 80px; 
+  padding: 4px 8px;
+  width: 360px;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+.adminDashboard-search-bar input{
+   border: none;
+  background: transparent;
+  padding: 7px;
+  font-size: 11px;
+  width: 100%;
+  outline: none;
+}
+.adminDashboard-search-bar-button{
+    background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-dashboard-user,
+.admin-dashboard-blog {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.admin-dashboard-user h3,
+.admin-dashboard-blog h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.admin-dashboard-user p,
+.admin-dashboard-blog p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.admin-dashboard-users-list {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  border: 1px solid #ddd;
+}
+
+.admin-dashboard-users-list h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.admin-dashboard-user-detail {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.admin-dashboard-user-detail > div {
+  margin-bottom: 0.8rem;
+}
+
+.admin-dashboard-user-detail strong {
+  color: #333;
+}
+
+.admin-dashboard-user-detail img {
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: #fff;
+}
+
+.admin-dashboard-user-detail ul {
+  padding-left: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.admin-dashboard-user-detail li {
+  list-style: disc;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  color: #555;
+}

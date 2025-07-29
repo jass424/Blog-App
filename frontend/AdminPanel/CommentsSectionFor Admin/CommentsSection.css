@@ -1,0 +1,64 @@
+.comment-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comment-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.admin-comment-user-block {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+}
+
+.admin-comment-user-block h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #0073e6;
+}
+
+.admin-comment-item {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.admin-comment-item p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.admin-comment-item strong {
+  color: #444;
+}
+
+.comment-delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #cc0000;
+  transition: transform 0.2s ease;
+}
+
+.comment-delete-button:hover {
+  transform: scale(1.1);
+  color: #ff0000;
+}
+
+.delete-icon {
+  font-size: 20px;
+}

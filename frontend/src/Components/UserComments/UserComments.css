@@ -1,0 +1,74 @@
+/* UserComments.css */
+
+.user-comments {
+  background-color: #fefefe;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 200px;
+}
+
+.user-comments h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.6rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.user-comment-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #007bff;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.user-blog-name h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.another-user-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 0.5rem;
+}
+
+.another-user-details img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.another-user-details strong {
+  font-size: 1rem;
+  color: #333;
+  margin-right: 6px;
+}
+
+.another-user-details p {
+  margin: 4px 0 6px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.another-user-details span {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 4px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin-top: 1rem;
+}
